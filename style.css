@@ -1,0 +1,120 @@
+body {
+	color: orange;
+	background-repeat: repeat;
+	width:  90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("frame.jpg");
+}
+
+form {
+	margin-top: 25px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 95%;
+	box-shadow:inset 2px 2px 2px peachpuff;
+}
+
+label {
+	padding: 10px;
+	font-weight: bolder;
+}
+
+textarea {
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	display: block;
+}
+
+
+ul {
+	list-style-type: square;
+}
+
+li {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+a:link {
+	color: pink;
+	transition: color 2s ease-in;
+}
+
+a:visited {
+	color: palevioletred;
+}
+
+a:hover {
+	color: plum;
+}
+
+
+.div {
+	border-style: solid;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;	
+	margin-left: 25px;
+	right: 20%;
+	position: absolute;
+}
+
+p {
+	padding: 10px;
+	margin: 10px;
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+
+
+#title {
+	text-align: center;
+	font-family: "Helvetica bold", Arial, Helvetica, sans-serif ;
+	font-size: 20px;
+	color: antiquewhite;
+	text-shadow: 1px 1px 5px #CCE4E6;
+}
+
+#paragraph {
+	margin-top: 40px;
+}
+
+#links {
+	margin-left: 25px;
+	background-color: cornsilk;
+}
+.navbar-default {
+  background-color: #eda20a8b;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;}
+
+h2 {font-size: 30px;
+font-weight: bold;}
+
+h3 {background-color: cornsilk;}
+
+ul {background-color: cornsilk;}
+
+li{font-weight: bolder;}
